@@ -22,7 +22,7 @@ This package is supported for *Linux*. The package has been tested on the follow
 
 # Install and run
 ```sh
-unzip DBGPS-Babel.zip
+git clone https://github.com/Scilence2022/DBGPS-Babel.git
 cd DBGPS-Babel
 make
 
