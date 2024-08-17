@@ -49,6 +49,8 @@ Sample sequencing data is available at: https://doi.org/10.6084/m9.figshare.2042
 
 ```sh
 ./DBGPS-greedy-path -k 21 ZDNA_1.clean.fq.gz ZDNA_2.clean.fq.gz > assembled.strands
+#remove strands with long 'AAAAAAA'
+grep -v "AAAAAAA" assembled.strands > assembled.strands.fixAAA
 ```
 
 The default parameters of this implementation has been optimized for Babel-DNA application. Please specify the actual index length(bp) and the data encoding length(bp) when applying it to your own data. Please use the -i option to specify the length(bp) of the index and use the -a & -b option to specifiy the index range, respectively. 
