@@ -7,7 +7,7 @@
 
 
 # Introduction
-DBGPS-greedy-path is a greedy strand assembler designed for Babel-DNA encryption. It assembles all possible strand sequences when sequencing file(s) and the index range are provided. 
+DBGPS-greedy-path is a greedy strand assembler designed for Babel-DNA encryption [https://github.com/Scilence2022/Babel-DNA-Encry/]. It assembles all possible strand sequences when sequencing file(s) and the index range are provided. 
 
 # System Requirements
 ## Hardware requirements
